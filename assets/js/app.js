@@ -9,7 +9,9 @@ import { Runner, Engine, Events, Bounds, Render, World, Body, Bodies, Composites
 import Bus from './Bus';
 import Terrain from './Terrain';
 import FontFaceObserver from 'fontfaceobserver'
+import BezierEasing from 'bezier-easing'
 
+var easing = BezierEasing(0.34, 0.01, 0.91, 0.21);
 
 window.onload = () => {
     var font = new FontFaceObserver('Averta Semibold');
@@ -96,7 +98,7 @@ const init = () => {
 
         Events.on(engine, 'afterTick', function () {
             const heightScale = (bus.body.position.y - MIN_TERRAIN_HEIGHT) / (MAX_TERRAIN_HEIGHT - MIN_TERRAIN_HEIGHT);
-            const targetScale = MIN_SCALE + (MAX_SCALE - MIN_SCALE) * (1 - heightScale);
+            const targetScale = MIN_SCALE + (MAX_SCALE - MIN_SCALE) * easing(1 - heightScale);
             movingContainer.scale.x = lerp(movingContainer.scale.x, targetScale, 0.1);
             movingContainer.scale.y = lerp(movingContainer.scale.y, targetScale, 0.1);
 
@@ -138,17 +140,15 @@ const init = () => {
     let started = false;
     let spaceDown = false;
     document.body.onkeyup = function(e){
-        console.log('key')
         if (e.keyCode === 32) {
             if (!started) {
-                console.log('started')
-                start();
+                start();            
                 started = true;
             }
         }
     };
 
-
+    
 
 
 }

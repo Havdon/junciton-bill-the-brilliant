@@ -230,7 +230,7 @@ class Bus {
         this.sprite.texture = PIXI.utils.TextureCache[`bus_${roundScale}`]
         
         if (this.textContainer != null) {
-            const fadeStart = MAX_SCALE - (MAX_SCALE - MIN_SCALE) * 0.50;
+            const fadeStart = MAX_SCALE - (MAX_SCALE - MIN_SCALE) * 0.90;
             if (stageScale < fadeStart) {
                 this.textContainer.alpha = lerp(this.textContainer.alpha, 0, 0.1);
             }

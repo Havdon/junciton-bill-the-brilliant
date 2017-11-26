@@ -29,7 +29,7 @@ export const TERRAIN_SEGMENT_LENGTH = 50;
 export const EDGE_BUFFER = 20;
 
 export const MIN_SCALE = 0.2;
-export const MAX_SCALE = 1.0;
+export const MAX_SCALE = 1.5;
 
 export const LIGHT_BLUE = 0x0092FF;
 export const DARK_BLUE = 0x1E3445;

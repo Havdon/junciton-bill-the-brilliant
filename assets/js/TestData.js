@@ -2,8 +2,7 @@
 import { lerp } from './utils';
 
 const speeds_data = [
-    { speed: 0, time: 0 },
-    { speed: 0, time: 1 },
+    { speed: 5, time: 0 },
     { speed: 80, time: 15 },
     { speed: 0, time: 10 },
     { speed: 50, time: 8 },
