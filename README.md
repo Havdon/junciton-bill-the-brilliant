@@ -1,5 +1,5 @@
 # Bill the Brilliant Bus Display
-## Aalto University | Mobility Track
+#### Junction Hackaton 2017 | Mobility Track | Aalto University Challenge
 
 Frontend: Javascript, PIXI.js, Matter.js
 
