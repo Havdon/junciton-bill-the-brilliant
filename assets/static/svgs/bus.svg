@@ -1,0 +1,31 @@
+<svg id="svg_bus"
+    xmlns="http://www.w3.org/2000/svg" 
+    width="508.8" height="243"
+    viewBox="0 0 2125.11 1080.63">
+    <defs>
+        <style>.cls-1,.cls-3{fill:#1e3445;}.cls-1,.cls-2{stroke:#0092ff;}.cls-1,.cls-2,.cls-3,.cls-4{stroke-miterlimit:10;}.cls-1,.cls-2,.cls-3{stroke-width:4px;}.cls-2,.cls-5{fill:#0092ff;}.cls-3,.cls-4{stroke:#1e3445;}.cls-4{fill:none;stroke-width:16px;}.cls-5{font-size:180.78px;font-family:Averta-Bold, Averta;font-weight:700;}.cls-6{letter-spacing:-0.01em;}</style>
+    </defs>
+    <title>Asset 1junc_bus</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <circle class="cls-1" cx="1819.81" cy="952.08" r="126.54"/>
+            <path class="cls-2" d="M709,2H69.62A67.62,67.62,0,0,0,2,69.62V882.45a67.62,67.62,0,0,0,67.62,67.62H1520.52V2Z"/>
+            <path class="cls-2" d="M1769.59,2h-285.9a67.62,67.62,0,0,0-67.62,67.62V882.45a67.62,67.62,0,0,0,67.62,67.62h571.8a67.62,67.62,0,0,0,67.62-67.62V69.62A67.62,67.62,0,0,0,2055.49,2Z"/>
+            <circle class="cls-1" cx="381.63" cy="952.08" r="126.54"/>
+            <circle class="cls-1" cx="1036.44" cy="952.08" r="126.54"/>
+            <circle class="cls-3" cx="2054.17" cy="778.54" r="22.47"/>
+            <circle class="cls-3" cx="1489.07" cy="778.54" r="22.47"/>
+            <path class="cls-4" d="M1629,825.54S1670.34,840,1769.59,840s140.6-14.43,140.6-14.43"/>
+            <path class="cls-1" d="M1769.59,2h-285.9a67.62,67.62,0,0,0-67.62,67.62V684.93h707V69.62A67.62,67.62,0,0,0,2055.49,2Z"/>
+            <rect class="cls-1" x="508.17" y="170.72" width="401.58" height="686.95" rx="16.83" ry="16.83"/>
+            <rect class="cls-1" x="2" y="170.72" width="253.09" height="686.95" rx="16.83" ry="16.83"/>
+            <rect class="cls-1" x="255.09" y="170.72" width="253.09" height="514.21" rx="16.83" ry="16.83"/>
+            <rect class="cls-1" x="909.75" y="170.72" width="253.09" height="514.21" rx="16.83" ry="16.83"/>
+            <rect class="cls-1" x="1162.84" y="170.72" width="253.09" height="686.95" rx="16.83" ry="16.83"/>
+            <text class="cls-5" transform="translate(1681.64 195.26)">
+                <tspan class="cls-6">1</tspan>
+                <tspan x="72.76" y="0">8</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

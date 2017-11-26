@@ -4,6 +4,9 @@
 // To use Phoenix channels, the first step is to import Socket
 // and connect at the socket path in "lib/web/endpoint.ex":
 import { Socket } from "phoenix"
+import { USE_TEST_DATA, ASSUMED_MAX_BUS_REAL_SPEED } from './constants';
+
+import { getSpeedAt } from './TestData';
 
 export default function () {
     const data = {
@@ -16,7 +19,7 @@ export default function () {
 
     // Now that you are connected, you can join channels with a topic:
     let channel = socket.channel("api:data", {})
-
+    let index = 0;
     channel.on("data", (payload) => {
         try {
             const { BusId } = payload;
@@ -30,6 +33,13 @@ export default function () {
                 const kmPerH = mPerH / 1000;
                 data.speed = Math.round(kmPerH * 100) / 100;
             }
+
+            if (USE_TEST_DATA) {
+                data.speed = getSpeedAt(index);
+            }
+            data.speed = Math.min(ASSUMED_MAX_BUS_REAL_SPEED, data.speed);
+            //console.log(Math.round(data.speed  * 100) / 100 + ' km/h')
+            index++;
         } catch (e) {
             console.error('Failed to parse API data', e);
         }

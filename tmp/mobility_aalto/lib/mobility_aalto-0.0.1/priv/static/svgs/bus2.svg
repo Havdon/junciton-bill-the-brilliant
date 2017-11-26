@@ -1,0 +1,26 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg"
+    width="509.76" height="259.21" 
+    viewBox="0 0 509.76 259.21">
+    <defs>
+        <style>.cls-1{fill:#1e3445;}.cls-1,.cls-2{stroke:#0092ff;}.cls-1,.cls-2,.cls-3,.cls-4{stroke-miterlimit:10;}.cls-1,.cls-2,.cls-4{stroke-width:0.96px;}.cls-2{fill:#0092ff;}.cls-3,.cls-4{fill:none;stroke:#1e3445;}.cls-3{stroke-width:3.84px;}</style>
+    </defs>
+    <title>Asset 2junc_bus2</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <circle class="cls-1" cx="436.53" cy="228.38" r="30.35"/>
+            <path class="cls-2" d="M170.08.48H16.7A16.22,16.22,0,0,0,.48,16.7v195A16.22,16.22,0,0,0,16.7,227.9h348V.48Z"/>
+            <path class="cls-2" d="M424.48.48H355.9A16.22,16.22,0,0,0,339.68,16.7v195A16.22,16.22,0,0,0,355.9,227.9H493.06a16.22,16.22,0,0,0,16.22-16.22V16.7A16.22,16.22,0,0,0,493.06.48Z"/>
+            <circle class="cls-1" cx="91.54" cy="228.38" r="30.35"/>
+            <circle class="cls-1" cx="248.62" cy="228.38" r="30.35"/>
+            <path class="cls-3" d="M390.75,198s9.92,3.46,33.73,3.46S458.21,198,458.21,198"/>
+            <path class="cls-1" d="M424.48.48H355.9A16.22,16.22,0,0,0,339.68,16.7V164.3h169.6V16.7A16.22,16.22,0,0,0,493.06.48Z"/>
+            <rect class="cls-1" x="121.9" y="40.95" width="96.33" height="164.78" rx="4.04" ry="4.04"/>
+            <rect class="cls-1" x="0.48" y="40.95" width="60.71" height="164.78" rx="4.04" ry="4.04"/>
+            <rect class="cls-1" x="61.19" y="40.95" width="60.71" height="123.35" rx="4.04" ry="4.04"/>
+            <rect class="cls-1" x="218.23" y="40.95" width="60.71" height="123.35" rx="4.04" ry="4.04"/>
+            <rect class="cls-1" x="278.93" y="40.95" width="60.71" height="164.78" rx="4.04" ry="4.04"/>
+            <path class="cls-4" d="M493.06.48H16.7A16.22,16.22,0,0,0,.48,16.7v195A16.22,16.22,0,0,0,16.7,227.9H493.06a16.22,16.22,0,0,0,16.22-16.22V16.7A16.22,16.22,0,0,0,493.06.48Z"/>
+        </g>
+    </g>
+</svg>
