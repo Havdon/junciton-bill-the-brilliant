@@ -38,7 +38,7 @@ export default function () {
                 data.speed = getSpeedAt(index);
             }
             data.speed = Math.min(ASSUMED_MAX_BUS_REAL_SPEED, data.speed);
-            //console.log(Math.round(data.speed  * 100) / 100 + ' km/h')
+            console.log(Math.round(data.speed  * 100) / 100 + ' km/h')
             index++;
         } catch (e) {
             console.error('Failed to parse API data', e);
